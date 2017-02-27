@@ -1,0 +1,116 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#college_name{
+	float: left;
+	margin: 0px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+.college p{
+	display: inline-block;
+	float: right;
+	margin-left: 80px;
+	margin-right: 10px;
+}
+.border{
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+}
+.title{
+	margin-left: 50%;
+	margin-bottom: 20px;
+}
+.topbox{
+	padding-left: 50%;
+}
+.education{
+	margin: 10px 0px 10px 10px;
+}
+.major{
+	display: block;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.course{
+	margin-left:10px;
+	margin-bottom: 10px;
+}
+.courses{
+	margin-left: 20px;
+}
+.experience{
+	margin: 0 0 10px 10px;
+}
+.sap{
+	margin-left: 20px;
+}
+.ul1{
+	display: none;
+	margin: 0 auto;
+}
+.skill{
+	margin-left: 10px;
+}
+.skill ul li{
+	float: left;
+	list-style: none;
+	margin: 0 20px;
+	width: 200px;
+	text-align: center;
+}
+.skill ul li ul li{
+	line-height: 18px;
+	float:none;
+	background-color:#eee; 
+	margin:2px 0px;
+}
+#menu{
+	width:1000px; 
+	height:40px; 
+	background-color:#eee; 
+	margin:0 auto;
+	line-height: 40px;
+}
+#border1{
+	margin-top: 90px;
+	border-bottom: 2px solid black;
+}
+.logo{
+	padding: 10px;
+}
+.search-form{
+	float: left;
+	background-color: #fff;
+	margin: 10px;
+}
+.search-text{
+	height: 25px;
+	line-height: 25px;
+	float: left;
+	width: 350px;
+}
+.search-button{
+	width: 50px;
+	height: 25px;
+	float: left;
+}
+.companybox{
+	margin: 10px;
+	clear: both;
+}
+.company{
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+#show{
+	margin: 50px auto;
+
+}
+#show div{
+	float: left;
+	margin: 10px 100px;
+}
