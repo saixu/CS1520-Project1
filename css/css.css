@@ -75,7 +75,7 @@
 }
 #border1{
 	margin-top: 90px;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 .logo{
 	padding: 10px;
@@ -83,7 +83,7 @@
 .search-form{
 	float: left;
 	background-color: #fff;
-	margin: 10px;
+	margin: 0 10px;
 }
 .search-text{
 	height: 25px;
@@ -113,4 +113,15 @@
 #show div{
 	float: left;
 	margin: 10px 100px;
+}
+#border2{
+	border-bottom: 1px solid black;
+	margin-top: 50px;
+}
+.information{
+	margin: 50px 10px;
+}
+.companybox h4{
+	margin-left: 40%;
+	margin-bottom: 20px;
 }
