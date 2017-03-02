@@ -11,7 +11,7 @@
 .college p{
 	display: inline-block;
 	float: right;
-	margin-left: 80px;
+	margin-left: 10%;
 	margin-right: 10px;
 }
 .border{
@@ -22,8 +22,11 @@
 	margin-left: 50%;
 	margin-bottom: 20px;
 }
-.topbox{
-	padding-left: 50%;
+#name{
+	margin-left:50%;
+}
+#email{
+	margin-left:49%;
 }
 .education{
 	margin: 10px 0px 10px 10px;
@@ -67,7 +70,7 @@
 	margin:2px 0px;
 }
 #menu{
-	width:1000px; 
+	width:70%; 
 	height:40px; 
 	background-color:#eee; 
 	margin:0 auto;
@@ -112,7 +115,7 @@
 }
 #show div{
 	float: left;
-	margin: 10px 100px;
+	width: 25%;
 }
 #border2{
 	border-bottom: 1px solid black;
