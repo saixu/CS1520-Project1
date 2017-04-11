@@ -2,6 +2,34 @@
 	margin: 0px;
 	padding: 0px;
 }
+#resume_show{
+	display: none;
+}
+#list_show{
+	display: none;
+}
+.head_line{
+	width: 500px;
+	margin: 10px auto;
+	display: block;
+	height: 40px;
+}
+#first_border{
+	border-bottom: 1px solid black;
+	width: 100%;
+}
+.head_line li{
+	list-style: none;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	width: 49.5%;
+	background: #eee;
+	border: 1px solid black;
+}
+.topbox{
+	margin-top: 20px;
+}
 #college_name{
 	float: left;
 	margin: 0px;
@@ -17,10 +45,6 @@
 .border{
 	margin-top: 10px;
 	border-bottom: 1px solid black;
-}
-.title{
-	margin-left: 50%;
-	margin-bottom: 20px;
 }
 #name{
 	margin-left:50%;
@@ -51,53 +75,53 @@
 }
 .ul1{
 	display: none;
-	margin: 0 auto;
 }
-.skill{
-	margin-left: 10px;
-}
-.skill ul li{
+.li{
 	float: left;
 	list-style: none;
-	margin: 0 20px;
-	width: 200px;
+	width: 24%;
 	text-align: center;
 }
-.skill ul li ul li{
-	line-height: 18px;
+.ul1 li{
+	border-top: 1px solid black;
+	line-height: 20px;
 	float:none;
+	list-style: none;
 	background-color:#eee; 
-	margin:2px 0px;
+	display: block;
 }
-#menu{
-	width:70%; 
+#ul{
+	width:100%; 
 	height:40px; 
 	background-color:#eee; 
-	margin:0 auto;
 	line-height: 40px;
 }
 #border1{
 	margin-top: 90px;
-	border-bottom: 1px solid black;
+	border-bottom: 1.5px solid black;
 }
 .logo{
 	padding: 10px;
 }
+.search{
+	margin:10px 30px;
+	padding: 5px;
+	border: 1px black solid;
+}
 .search-form{
-	float: left;
 	background-color: #fff;
 	margin: 0 10px;
 }
 .search-text{
 	height: 25px;
 	line-height: 25px;
-	float: left;
 	width: 350px;
 }
 .search-button{
 	width: 50px;
 	height: 25px;
-	float: left;
+	margin-left: 10px;
+	margin-top:10px;
 }
 .companybox{
 	margin: 10px;
@@ -109,8 +133,9 @@
 	text-align: center;
 }
 
-#show{
-	margin: 50px auto;
+.companyname{
+	width: 25%;
+	text-align: center;
 
 }
 #show div{
@@ -127,4 +152,34 @@
 .companybox h4{
 	margin-left: 40%;
 	margin-bottom: 20px;
+}
+.form-return{
+	border: 1px solid black;
+	height: 100px;
+	width: 90%;
+	margin: 10px;
+}
+.database{
+	margin:30px 30px;
+	padding: 15px;
+	border: 1px black solid;
+}
+.border2{
+	width: 100%;
+	border-top: solid 1.5px black;
+}
+.database-text{
+	height: 25px;
+	line-height: 25px;
+	width: 350px;
+}
+#database_submit{
+	width: 50px;
+}
+#search_result{
+	list-style: none;
+	margin: 3px;
+}
+#skill_head{
+	margin-left: 10px;
 }

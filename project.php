@@ -5,9 +5,15 @@
 		<link rel= "stylesheet" href= "css/css.css">
 	</head>
 	<body>
-		<div class= "title">
-			<h3>Resume</h3>
-		</div>
+		<ul class= "head_line">
+			<li class= "head_li" id= "resume">Resume</li>
+			<li class= "head_li" id= "list">Company List</li>
+		</ul>
+
+		<div id= "first_border"></div>
+
+
+		<div id= "resume_show">
 		<div class= "topbox">
 			<div id= "name">SAI XU</div>
 			<div id= "email">sax2@pitt.edu</div>
@@ -42,10 +48,9 @@
 				</div>
 			</div>
 			<div class= "skill">
-				<h4>SKILLS:</h4>
-				<div id= "menu">
-				<ul>
-					<li class= "li"><span>Programming Language</span>
+				<h4 id= "skill_head">SKILLS:</h4>
+				<ul id= "ul">
+					<li class= "li">Programming Language
 						<ul class= "ul1">
 							<li>Java</li>
 							<li>C</li>
@@ -53,49 +58,43 @@
 							<li>CSS</li>
 						</ul>
 					</li>
-					<li class= "li"><span>DataBase</span>
+					<li class= "li">DataBase
 						<ul class= "ul1">
 							<li>SQL</li>
 							<li>Oracl</li>
 							<li>NYSQL</li>
 						</ul>
 					</li>
-					<li class= "li"><span>Proficient in Microsoft Office</span>
+					<li class= "li">Proficient in Microsoft Office
 						<ul class= "ul1">
 							<li>Operating System</li>
 							<li>Window</li>
 							<li>Linux</li>
 						</ul>
 					</li>
-					<li class= "li"><span>Language</span>
+					<li class= "li">Language
 						<ul class= "ul1">
 							<li>Chinese</li>
 							<li>English</li>
 						</ul>
 					</li>
 				</ul>
-				</div>
 			</div>
 		</div>
-		<div id= "border1"></div>
 
+		</div>
+	
 
+		<div id= "list_show">
 		<div class= "search">
  			
  			<div class= "jobform">
  				<div class="logo">
-					<h4>The company you are interest in: </h4>
+					<h4>Show the available job for your: </h4>
 				</div>
-	 			<form class="search-form" action= "result.php" method= "get" id= "search-form">
+	 			<form class="search-form" action= "result.php" method= "post" id= "search-form">
 	 				<lable>Company Name:</lable><br>
 	 				<input type="text" class="search-text" name="name" id= "search_input1"/>
-	 				<br>
-	 				<lable>Position:</lable><br>
-	 				<input type="text" class="search-text" name="position" id= "search_input2"/>
-	 				<br>
-	 				<lable>Location:</lable><br>
-	 				<input type="text" class="search-text" name="location" id= "search_input3"/>
-	 				<br><br>
 	 			</form>
 	 			<button class="search-button" id= "button">Search</button>
 	 		</div>
@@ -105,6 +104,30 @@
 	 				
 	 			</ul>
 	 		</div>
+		</div>
+
+
+
+
+
+
+		<div class= "database"> 
+			<h4>Please input the company you are intersted in, we can store it in our database</h4>
+			<form action= "database.php" method= "post">
+				<lable>Company Name:</lable><br>
+	 			<input type="text" class="database-text" name="name" id= "database_input1"/>
+	 			<br>
+	 			<lable>Position:</lable><br>
+	 			<input type="text" class="database-text" name="position" id= "database_input2"/>
+	 			<br>
+	 			<lable>Salary:</lable><br>
+	 			<input type="text" class="database-text" name="salary" id= "database_input3"/>
+	 			<br>
+	 			<lable>Location:</lable><br>
+	 			<input type="text" class="database-text" name="location" id= "database_input4"/>
+	 			<br><br>
+	 			<input type="submit" class="database-text" id= "database_submit" value= "submit"/>
+			</form>
 		</div>
 
 
@@ -123,7 +146,8 @@
 
 		<div id= "show">
 		</div>
-		<script src= "js/js.js"></script>
+		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src= js/js.js></script>
 	</body>
 </html>
