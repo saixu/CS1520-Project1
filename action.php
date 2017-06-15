@@ -1,5 +1,5 @@
 <?php
-	class Respomse{
+	class Response{
 		public static function json($code, $message= "", $data= array()){
 			if(!is_numeric($code)){
 				return "";
@@ -46,10 +46,11 @@
 	$method = $_SERVER['REQUEST_METHOD'];
 	$input = json_decode(file_get_contents('php://input'),true);
 	$token= $input["token"];
-	echo $input;
-	if($token!= "MrLxnLhiIJX5P8NAD4KdRgG6"){
-		echo "error";
-	}
+	$responseM= array("response_type"=>"ephemeral",
+  "replace_original"=>"false",
+  "text"=>"Sorry, that didn't work. Please try again.");
+	echo json_encode($responseM);
+	
 //	if($method== "POST"){
 //		$actions= $input["actions"];/
 //		$name= $actions[0]["name"];
